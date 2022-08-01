@@ -1,0 +1,37 @@
+.state-name {
+  width: 250px;
+  align-self: flex-start;
+}
+
+.cases {
+  width: 150px;
+}
+
+.active-text {
+  color: #007bff;
+}
+
+.confirmed-text {
+  color: #ff073a;
+}
+
+.deceased-text {
+  color: #6c757d;
+}
+
+.recovered-text {
+  color: #28a745;
+}
+
+.population-text {
+  color: #94a3b8;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-right: 40px;
+}

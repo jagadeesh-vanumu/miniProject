@@ -1,0 +1,150 @@
+.line-graphs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #161625;
+}
+.graph-container {
+  width: 60%;
+  color: white;
+}
+
+.confirmed-graph {
+  background-color: #331427;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.deceased-graph {
+  background-color: #1c1c2b;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.active-graph {
+  background-color: #132240;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.recovered-graph {
+  background-color: #182829;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.tested-graph {
+  background-color: #230f41;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+}
+.graphs {
+  display: flex;
+}
+
+.confirmed-color {
+  color: #ff073a;
+}
+
+.active-color {
+  color: #007bff;
+}
+
+.tested-color {
+  color: #007bff;
+}
+
+.recovered-color {
+  color: #27a243;
+}
+
+.deceased-color {
+  color: #9673b9;
+}
+
+.bar {
+  border-top-left-radius: 10px;
+  color: #ffffff;
+}
+
+.district-list-container {
+  padding-left: 0px;
+  list-style-type: none;
+  color: #94a3b8;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.top-district {
+  width: 80%;
+}
+
+.icon-button {
+  width: 100%;
+  border-style: none;
+  border-radius: 10px;
+  background-color: #161625;
+}
+
+.icon-container {
+  background-color: #161625;
+}
+
+.confirmed-icon {
+  background-color: #331427;
+}
+
+.active-icon {
+  background-color: #132240;
+}
+
+.deceased-icon {
+  background-color: #1c1c2b;
+}
+
+.recovered-icon {
+  background-color: #182829;
+}
+
+.specific-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #161625;
+  align-items: center;
+}
+
+.state-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 30px;
+}
+
+.text-color {
+  color: #94a3b8;
+}
+
+.state-text {
+  background-color: rgba(2, 132, 199, 0.16);
+  padding: 10px;
+  color: #0ea5e9;
+  font-size: 20px;
+  border-radius: 20px;
+  align-self: center;
+  width: 250px;
+  padding-left: 20px;
+}
+
+.state-specific-container {
+  background-color: #161625;
+  min-height: 100vh;
+}

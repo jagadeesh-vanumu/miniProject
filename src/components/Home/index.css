@@ -1,0 +1,132 @@
+.home-container {
+  background-color: #161625;
+  min-height: 100vh;
+}
+
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+.home-loader-container {
+  display: flex;
+  justify-content: center;
+}
+
+.home-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px;
+}
+.home-icons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 16%;
+}
+
+.active-text {
+  color: #007bff;
+}
+
+.confirmed-text {
+  color: #ff073a;
+}
+
+.deceased-text {
+  color: #6c757d;
+}
+
+.recovered-text {
+  color: #28a745;
+}
+
+.home-list-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  border: 1px solid #475569;
+  margin: 40px;
+  border-radius: 15px;
+  color: #ffffff;
+  padding-left: 0px;
+  background-color: #1e1e30;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-line {
+  border: 1px solid #475569;
+}
+
+.state-name {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  text-align: start;
+  padding-left: 20px;
+}
+
+.order-icon {
+  color: white;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.cases {
+  width: 150px;
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.search {
+  width: 35%;
+  height: 40px;
+  background-color: #2f2f43;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.home-search-icon {
+  color: #94a3b8;
+  margin-right: 5px;
+}
+
+.home-input {
+  color: #94a3b8;
+  background-color: #2f2f43;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  flex-grow: 1;
+}
+
+.search-list-container {
+  width: 35%;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.sorting-button {
+  background-color: #1e1e30;
+  border: none;
+}

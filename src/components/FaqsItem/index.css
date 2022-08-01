@@ -1,0 +1,32 @@
+.faq {
+  width: 1146px;
+  height: 32px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+
+  /* Light / blue-gray / 400 */
+
+  color: #94a3b8;
+}
+
+.faq-list-item {
+  margin-bottom: 50px;
+}
+
+.answer {
+  width: 1146px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  color: #007bff;
+}

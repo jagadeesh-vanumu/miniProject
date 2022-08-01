@@ -1,0 +1,11 @@
+.district-list-item {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+
+  width: 200px;
+}
+
+.district-text {
+  margin: 10px;
+}

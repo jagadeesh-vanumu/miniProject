@@ -1,0 +1,29 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #161625;
+}
+
+.questions-container {
+  display: flex;
+  justify-content: center;
+  background-color: #161625;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  width: 90%;
+}
+
+.faq-list-container {
+  list-style-type: none;
+}
+
+.about-text {
+  color: white;
+  padding-left: 40px;
+}
